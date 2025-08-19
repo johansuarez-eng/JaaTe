@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaate - Tecnología Inteligente para el Cuidado del Suelo</title>
+    <meta name="description" content="SoilTech ofrece soluciones tecnológicas avanzadas para el monitoreo de pH y humedad en suelos. Agricultura inteligente y sostenible.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+</head>
+<body>
+    
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-seedling"></i>
+                <span>Jaate</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#acerca" class="nav-link">Acerca de</a></li>
+                <li><a href="#proyecto" class="nav-link">Proyecto</a></li>
+                <li><a href="#equipo" class="nav-link">Equipo</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="promo-badge">
+                    <span class="discount">HASTA 30% OFF</span>
+                    <span class="promo-text">En Tu Primera Compra</span>
+                </div>
+                <h1 class="hero-title">
+                    Cuida Tus Plantas Con <br>
+                    <span class="highlight">Tecnología Inteligente</span>
+                </h1>
+                <p class="hero-description">
+                    Cultiva con datos, cosecha con precisión. Monitoreo avanzado de pH y humedad para optimizar el crecimiento de tus cultivos.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary" onclick="scrollToSection('proyecto')">
+                        <i class="fas fa-play"></i>
+                        Ver Productos
+                    </button>
+                    <div class="price-info">
+                        <span class="price-label">Desde</span>
+                        <span class="price-value">$20.000 CLP</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Dispositivo SoilTech para monitoreo de suelos" class="hero-img">
+                    <div class="floating-card">
+                        <i class="fas fa-chart-line"></i>
+                        <div>
+                            <span class="card-title">pH Óptimo</span>
+                            <span class="card-value">6.8</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>Conectividad IoT</h3>
+                    <p>Monitoreo en tiempo real con conexión inalámbrica</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>App Móvil</h3>
+                    <p>Control total desde tu smartphone</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Alertas Inteligentes</h3>
+                    <p>Notificaciones automáticas cuando necesites actuar</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Análisis Avanzado</h3>
+                    <p>Reportes detallados y predicciones</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="acerca" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Quiénes Somos</span>
+                <h2>Innovación para la Agricultura del Futuro</h2>
+                <p>Somos un equipo apasionado por la tecnología y la agricultura sostenible, comprometidos con revolucionar el cuidado de los suelos.</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="mission-vision">
+                        <div class="mv-card">
+                            <div class="mv-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h3>Nuestra Misión</h3>
+                            <p>Desarrollar soluciones tecnológicas innovadoras que permitan a agricultores y jardineros optimizar el cuidado de sus cultivos mediante el monitoreo preciso del pH y humedad del suelo.</p>
+                        </div>
+                        <div class="mv-card">
+                            <div class="mv-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <h3>Nuestra Visión</h3>
+                            <p>Ser líderes en tecnología agrícola inteligente, contribuyendo a una agricultura más sostenible y productiva a través de la innovación y la precisión.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Clientes Satisfechos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Precisión</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Monitoreo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Tecnología agrícola moderna">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="proyecto" class="project-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nuestro Proyecto</span>
+                <h2>Tecnología que Transforma la Agricultura</h2>
+                <p>Descubre cómo nuestros sensores IoT revolucionan el monitoreo de suelos</p>
+            </div>
+            
+            <div class="project-showcase">
+                <div class="project-demo">
+                    <div class="demo-device">
+                        <div class="device-screen">
+                            <div class="screen-header">
+                                <span class="status-dot active"></span>
+                                <span>SoilTech Monitor</span>
+                            </div>
+                            <div class="screen-content">
+                                <div class="metric">
+                                    <span class="metric-label">pH</span>
+                                    <span class="metric-value" id="ph-value">6.8</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Humedad</span>
+                                    <span class="metric-value" id="humidity-value">65%</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Temperatura</span>
+                                    <span class="metric-value" id="temp-value">22°C</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-features">
+                    <div class="project-feature">
+                        <div class="feature-number">01</div>
+                        <div class="feature-content">
+                            <h4>Sensores de Alta Precisión</h4>
+                            <p>Dispositivos IoT que proporcionan mediciones exactas y confiables del estado del suelo en tiempo real.</p>
+                        </div>
+                    </div>
+                    <div class="project-feature">
+                        <div class="feature-number">02</div>
+                        <div class="feature-content">
+                            <h4>Conectividad Inalámbrica</h4>
+                            <p>Transmisión de datos continua a través de WiFi para monitoreo remoto desde cualquier lugar.</p>
+                        </div>
+                    </div>
+                    <div class="project-feature">
+                        <div class="feature-number">03</div>
+                        <div class="feature-content">
+                            <h4>Alertas Inteligentes</h4>
+                            <p>Notificaciones automáticas cuando los niveles requieren atención inmediata para optimizar el cuidado.</p>
+                        </div>
+                    </div>
+                    <div class="project-feature">
+                        <div class="feature-number">04</div>
+                        <div class="feature-content">
+                            <h4>Análisis Predictivo</h4>
+                            <p>Reportes detallados y tendencias para tomar decisiones informadas sobre el cuidado de tus cultivos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="equipo" class="team-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nuestro Equipo</span>
+                <h2>Los Expertos Detrás de Jaate</h2>
+                <p>Conoce a los profesionales que hacen posible la innovación</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="/img/andrea.jpg" alt="Andrea Vasquez - Ingeniera en Sistemas">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#" aria-label="LinkedIn de Andrea Vasquez"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" aria-label="GitHub de Andrea Vasquez"><i class="fab fa-github"></i></a>
+                                <a href="#" aria-label="Twitter de Andrea Vasquez"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Andrea Vasquez</h3>
+                        <p class="role">Ingeniera en Sistemas</p>
+                        <p class="description">Especialista en desarrollo de software y sistemas IoT. Lidera el desarrollo de la plataforma tecnológica .</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="/img/Johan.jpg" alt="Johan Suarez - Ingeniero Electrónico">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#" aria-label="LinkedIn de Johan Suarez"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" aria-label="GitHub de Johan Suarez"><i class="fab fa-github"></i></a>
+                                <a href="#" aria-label="Twitter de Johan Suarez"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Johan Suarez</h3>
+                        <p class="role">Ingeniero Electrónico</p>
+                        <p class="description">Experto en hardware y sensores. Responsable del diseño y desarrollo de los dispositivos de monitoreo con tecnología de vanguardia.</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="/img/emanuel.jpg" alt="Emanuel Chinchilla - Ingeniero Agrónomo">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#" aria-label="LinkedIn de Emanuel Chinchilla"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" aria-label="Instagram de Emanuel Chinchilla"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Twitter de Emanuel Chinchilla"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Emanuel Chinchilla</h3>
+                        <p class="role">Ingeniero Agrónomo</p>
+                        <p class="description">Especialista en agricultura de precisión. Aporta conocimiento técnico sobre las necesidades reales del sector agrícola moderno.</p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="/img/esteban.jpg" alt="Esteban Tolossa - Diseñador UX/UI">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#" aria-label="LinkedIn de Esteban Tolossa"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" aria-label="Behance de Esteban Tolossa"><i class="fab fa-behance"></i></a>
+                                <a href="#" aria-label="Dribbble de Esteban Tolossa"><i class="fab fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Esteban Tolossa</h3>
+                        <p class="role">Diseñador UX/UI</p>
+                        <p class="description">Especialista en experiencia de usuario. Diseña interfaces intuitivas y accesibles que hacen la tecnología fácil de usar.</p>
+                    </div>
+                </div>
+
+                                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="/img/Aron.jpg" alt="Aaron Echezuría - Diseñador UX/UI">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#" aria-label="LinkedIn de Aaron Echezuría"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" aria-label="Behance de Aaron Echezuría"><i class="fab fa-behance"></i></a>
+                                <a href="#" aria-label="Dribbble de Aaron Echezuría"><i class="fab fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Aaron Echezuría</h3>
+                        <p class="role">Diseñador UX/UI</p>
+                        <p class="description">Especialista en experiencia de usuario. Diseña interfaces intuitivas y accesibles que hacen la tecnología fácil de usar.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="galeria" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Galería</span>
+                <h2>Nuestro Trabajo en Acción</h2>
+                <p>Descubre cómo transformamos la agricultura con tecnología</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="agricultura">
+                    <img src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Agricultura de precisión con tecnología SoilTech">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h4>Agricultura de Precisión</h4>
+                            <p>Tecnología aplicada en cultivos reales</p>
+                            <button class="gallery-btn" onclick="openModal(this)">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="tecnologia">
+                    <img src="/img/prue.jpg" alt="Sensores IoT SoilTech">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h4>Sensores IoT</h4>
+                            <p>Dispositivos de monitoreo avanzado</p>
+                            <button class="gallery-btn" onclick="openModal(this)">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="laboratorio">
+                    <img src="/img/i.jpg" alt="Laboratorio de pruebas SoilTech">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h4>Laboratorio de Pruebas</h4>
+                            <p>Calibración y testing de equipos</p>
+                            <button class="gallery-btn" onclick="openModal(this)">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="app">
+                    <img src="/img/o.jpg" alt="Aplicación móvil SoilTech">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h4>App Móvil</h4>
+                            <p>Interfaz de usuario intuitiva</p>
+                            <button class="gallery-btn" onclick="openModal(this)">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="equipo">
+                    <img src="/img/p.jpg" alt="Equipo SoilTech trabajando">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h4>Equipo en Acción</h4>
+                            <p>Desarrollo colaborativo del proyecto</p>
+                            <button class="gallery-btn" onclick="openModal(this)">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="resultados">
+                    <img src="/img/p.jpg" alt="Resultados y análisis SoilTech">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h4>Resultados</h4>
+                            <p>Datos y análisis en tiempo real</p>
+                            <button class="gallery-btn" onclick="openModal(this)">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="gallery-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-image" src="" alt="">
+            <div class="modal-info">
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contacto</span>
+                <h2>¿Listo para Revolucionar tu Agricultura?</h2>
+                <p>Contáctanos y descubre cómo SoilTech puede transformar tus cultivos</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>info@Jaate.com</p>
+                            <a href="mailto:info@Jaate.com">Enviar email</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Teléfono</h4>
+                            <p>+56 9 1234 5678</p>
+                            <a href="tel:+56912345678">Llamar ahora</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Ubicación</h4>
+                            <p>Santiago, Chile</p>
+                            <a href="#" onclick="openMap()">Ver en mapa</a>
+                        </div>
+                    </div>
+                    
+                    <div class="social-section">
+                        <h4>Síguenos en Redes Sociales</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="asunto">Asunto *</label>
+                            <select id="asunto" name="asunto" required>
+                                <option value="">Selecciona un asunto</option>
+                                <option value="consulta">Consulta General</option>
+                                <option value="cotizacion">Solicitar Cotización</option>
+                                <option value="soporte">Soporte Técnico</option>
+                                <option value="colaboracion">Colaboración</option>
+                                <option value="demo">Solicitar Demo</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Cuéntanos más sobre tu consulta o proyecto..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-paper-plane"></i>
+                        Enviar Mensaje
+                    </button>
+                    
+                    <div id="form-message" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-seedling"></i>
+                        <span>Jaate</span>
+                    </div>
+                    <p>Tecnología inteligente para el cuidado del suelo. Innovación que cultiva el futuro de la agricultura sostenible.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#acerca">Acerca de</a></li>
+                        <li><a href="#proyecto">Proyecto</a></li>
+                        <li><a href="#equipo">Equipo</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Monitoreo de pH</a></li>
+                        <li><a href="#">Control de Humedad</a></li>
+                        <li><a href="#">Análisis de Datos</a></li>
+                        <li><a href="#">Soporte Técnico</a></li>
+                        <li><a href="#">Consultoría Agrícola</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> info@Jaate.com</p>
+                        <p><i class="fas fa-phone"></i> +56 9 1234 5678</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Santiago, Chile</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 Jaate. Todos los derechos reservados.</p>
+                    <div class="footer-links">
+                        <a href="#">Política de Privacidad</a>
+                        <a href="#">Términos de Servicio</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <div class="whatsapp-float">
+        <a href="https://wa.me/56912345678" target="_blank" aria-label="Contactar por WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    
+    <button id="scroll-top" class="scroll-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
